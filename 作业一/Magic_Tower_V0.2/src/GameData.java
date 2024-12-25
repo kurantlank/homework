@@ -20,21 +20,21 @@ public class GameData implements Serializable {
 				heroHealth = 150;   // Easy模式玩家血量
 				heroAttack = 30;    // Easy模式玩家攻击力
 				monsterHealth = 50; // Easy模式怪物血量
-				monsterAttack = 5;  // Easy模式怪物攻击力
+				monsterAttack = 10;  // Easy模式怪物攻击力
 
 				break;
 			case "medium":
 				heroHealth = 100;   // Medium模式玩家血量
 				heroAttack = 20;    // Medium模式玩家攻击力
 				monsterHealth = 100;// Medium模式怪物血量
-				monsterAttack = 20; // Medium模式怪物攻击力
+				monsterAttack = 50; // Medium模式怪物攻击力
 
 				break;
 			case "hard":
-				heroHealth = 70;    // Hard模式玩家血量
+				heroHealth = 100;    // Hard模式玩家血量
 				heroAttack = 10;    // Hard模式玩家攻击力
 				monsterHealth = 200;// Hard模式怪物血量
-				monsterAttack = 50; // Hard模式怪物攻击力
+				monsterAttack = 90; // Hard模式怪物攻击力
 
 				break;
 			default:
